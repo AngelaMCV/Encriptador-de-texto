@@ -1,0 +1,101 @@
+*{
+    background: purple;
+    font-family: Georgia;
+    line-height: 150%;
+    font-size: 25px;
+    overflow-y: hidden;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.texto {
+    height: 370px;
+    border: none;
+    color:blueviolet;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.texto:focus {
+    outline: none
+}
+::placeholder { 
+    color: blueviolet; 
+}
+
+h6 {
+    font-size: 15px;
+    margin: 0;
+}
+.mensaje {
+    height: 530px;
+    background: palevioletred;
+    background-image: url("img/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: blueviolet;
+    margin-left: 125px;
+    margin-top: 2px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 5px;
+}
+
+.boton-desencriptar {
+    background: violet;
+    border: none;
+    border-radius: 24px;
+    color: purple;
+    cursor: pointer;
+    height: 63px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-encriptar {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 63px;
+    width: 328px;
+}
+
+.boton-copiar {
+    background: violet;
+    border: none;
+    border-radius: 24px;
+    color: purple;
+    cursor: pointer;
+    height: 63px;
+    margin-left: 120px;
+    margin-top: 440px;
+    position: absolute;
+    width: 310px;
+}
+
+footer{
+    text-align: center;
+}
+.copyright{
+    color: black;
+    font-size: 13px;
+    margin: 1px;
+}

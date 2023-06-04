@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logoAlura.png">
+    </header>
+    <main>
+        <section>
+            <textarea class="texto" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="terminos">
+                <h6>&#9888; Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()">¡Encriptar!</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">¡Desencriptar!</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="boton-copiar" onclick="botonCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Elaborado por Angela Cerna - 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
